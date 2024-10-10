@@ -1,5 +1,6 @@
 Tópicos:
-	1 - Importação das Libs necessárias juntamente com o carregamento dos dados e verificações inicias, como: uma breve amostra de como estão os
+	
+ 	1 - Importação das Libs necessárias juntamente com o carregamento dos dados e verificações inicias, como: uma breve amostra de como estão os
     dados na tabela, informações da tipagem de cada uma das colunas, valores superficiais para se ter uma melhor noção da tabela com um todo e por
     fim a quantia de linhas e colunas que a tabela contém.
 
@@ -22,11 +23,15 @@ Tópicos:
     identificado como positivo, falso positivo, negativo e falso negativo pela predição realizada.
 
 Conclusão:
-        O desempenho do modelo está bom, pois se considerarmos ML em si, veremos que o ideal não é ficar muito próximo a 1 (nesse caso da acurácia) 
+        
+	O desempenho do modelo está bom, pois se considerarmos ML em si, veremos que o ideal não é ficar muito próximo a 1 (nesse caso da acurácia) 
     pelo motivo que outros dados podem surgir na mesma fonte de dados e se o modelo estiver bem treinado aos dados inicias (como se ele lembrasse da 
     tabela como algo estático), o que surgir com pouco mais de variação a esses dados pode jogar a precisão muito pra baixo, dizendo-se que o modelo 
     está com overfit (ele é muito bom para analisar os atuais dados somente). Associando isso com a matriz de confusão, podemos ver que foi uma boa 
     classificação, pois se somarmos os acertos, dará um número superior, porém nem tanto, ao valor da soma dos erros.
 	    Se quiséssemos melhorar ainda mais nossa predição, imagino que poderiamos abordar em duas maneiras: 
-    1ª - Ampliar o número de "vizinhos" em que o dado será comparado para se agrupar na classificação, assim dando ao modelo mais informação do que está ao redor de um dado em específico.
-    2ª - Alteração do número de interações em que o KNN terá com os dados, podendo diversas vezes considerar os três vizinhos mais próximos diferentes, pois para cada localização de um dado, provalvelmente terá mais de três vizinhos para serem considerados, assim, o agrupamento ficará mais dinâmico e preciso ao decorrer das interções.
+    1ª - Ampliar o número de "vizinhos" em que o dado será comparado para se agrupar na classificação, assim dando ao modelo mais informação do que 
+    está ao redor de um dado em específico.
+    2ª - Alteração do número de interações em que o KNN terá com os dados, podendo diversas vezes considerar os três vizinhos mais próximos diferentes, 
+    pois para cada localização de um dado, provalvelmente terá mais de três vizinhos para serem considerados, assim, o agrupamento ficará mais 
+    dinâmico e preciso ao decorrer das interções.
