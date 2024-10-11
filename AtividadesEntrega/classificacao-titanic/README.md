@@ -24,7 +24,7 @@ Tópicos:
 
 Conclusão:
         
-	O desempenho do modelo está bom, pois se considerarmos ML em si, veremos que o ideal não é ficar muito próximo a 1 (nesse caso da acurácia) 
+	    O desempenho do modelo está bom, pois se considerarmos ML em si, veremos que o ideal não é ficar muito próximo a 1 (nesse caso da acurácia) 
     pelo motivo que outros dados podem surgir na mesma fonte de dados e se o modelo estiver bem treinado aos dados inicias (como se ele lembrasse da 
     tabela como algo estático), o que surgir com pouco mais de variação a esses dados pode jogar a precisão muito pra baixo, dizendo-se que o modelo 
     está com overfit (ele é muito bom para analisar os atuais dados somente). Associando isso com a matriz de confusão, podemos ver que foi uma boa 
