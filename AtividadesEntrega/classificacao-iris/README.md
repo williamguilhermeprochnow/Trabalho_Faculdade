@@ -1,8 +1,7 @@
 Tópicos:
 	
- 	1 - Importação das Libs necessárias juntamente com o carregamento dos dados e verificações inicias, como: uma breve amostra de como estão os
-    dados na tabela, informações da tipagem de cada uma das colunas, valores superficiais para se ter uma melhor noção da tabela com um todo e por
-    fim a quantia de linhas e colunas que a tabela contém.
+ 	1 - Importação das Libs necessárias juntamente com o carregamento dos dados e verificações inicias, como: a quantia de linhas e colunas que 
+    a tabela contém e uma breve amostra de como estão os dados na tabela.
 
 	2 - A separação das colunas em tabelas para treino e teste: uma contendo somente as colunas features e a outra somente a colunas target. Após 
     essa separação, é feita uma separação de dados aleatória, pegando 70% dos dados para treino e o restante deixando para teste.
